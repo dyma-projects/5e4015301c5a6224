@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exercice3.component.css']
 })
 export class Exercice3Component implements OnInit {
-
+  public trainingProject: string = "Projet 3 de la formation";
   constructor() { }
 
   ngOnInit() {
